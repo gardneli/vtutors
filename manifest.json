@@ -1,0 +1,7 @@
+{
+  "name": "vtutors",
+  "short_name": "vtutors",
+  "description": "Virtual tutoring web application",
+  "start_url": "/",
+  "display": "standalone"
+}

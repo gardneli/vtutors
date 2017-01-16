@@ -1,0 +1,27 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<dom-module id="vtutors-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'vtutors-app',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'Crazy World!!!',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
